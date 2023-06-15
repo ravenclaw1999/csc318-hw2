@@ -20,7 +20,14 @@ h2 {
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
+.label{
+  color: purple;
+}
 
+.label:hover {
+  color: green;
+  font-size: larger;
+}
 .flag {
   height: 300px;
   width: 500px;
@@ -160,6 +167,9 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  max-height: 50%;
+  max-width: 33.3%;
+  align-self: center;
 }
 
 .mexico-red {
@@ -180,11 +190,13 @@ h2 {
 .flag1 {
   background-color: red;
   /* TODO */
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
   /* TODO */
+  margin-left: 5px;
 }
 
 /* For padding practice */
@@ -193,6 +205,7 @@ h2 {
   background-color: lightblue;
   background-clip: content-box, padding-box;
   /* TODO */
+  padding: 20px;
 }
 
 .red threevert {
